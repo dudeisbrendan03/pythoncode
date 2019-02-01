@@ -7,7 +7,7 @@ v,b,br,n,m,be,an,oo,s,ss,t,w,c,d = "veda","brandon","bret","nitya","maggie","bea
 print("WELCOME TO DA SHIP GENERATOR\nMADE WITH 100% TRUTH\n")
 
 
-for y in range(0,5):
+while True:
     num1,num2=input("Enter a name: "),input("\nEnter another name: ")
 
     x = randint(0, 100)
